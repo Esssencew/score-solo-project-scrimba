@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Solo Project</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="item">
+            <h3>HOME</h3>
+            <div class="score">
+                <h4 class="text" id="homeScore">0</h4>
+            </div>
+            <button class="scorebtn" onclick="inc1PointHome()">+1</button>
+            <button class="scorebtn" onclick="inc2PointHome()">+2</button>
+            <button class="scorebtn" onclick="inc3PointHome()">+3</button>
+        </div>
+        <div class="item">
+            <h3>GUEST</h3>
+            <div class="score">
+                <h4 class="text" id="guestScore">0</h4>
+            </div>
+            <button class="scorebtn" onclick="inc1PointGuest()">+1</button>
+            <button class="scorebtn" onclick="inc2PointGuest()">+2</button>
+            <button class="scorebtn" onclick="inc3PointGuest()">+3</button>
+        </div>
+    </div>
+    <div class="resetbtndiv"><button class="resetbtn" onclick="reset()">RESET</button></div>
+    <script src="js/app.js"></script>
+</body>
+</html>
