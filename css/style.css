@@ -13,10 +13,6 @@ body {
     justify-content: space-around;
 }
 
-.item {
-    margin-left: 40px;
-}
-
 .score {
     color: #F94F6D;
     font-family: "CursedTimer";
